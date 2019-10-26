@@ -19,6 +19,10 @@ public class FoodController {
         request.setAttribute("name","wujunfeng");
         return "index";
     }
+    @RequestMapping("/echarts")
+    public String echarts(){
+        return "echarts";
+    }
 
     @RequestMapping("/test")
     @ResponseBody
